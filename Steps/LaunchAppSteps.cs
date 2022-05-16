@@ -8,7 +8,7 @@ namespace SpecFlowXamarinUITest.Steps
     {
         Pages.LaunchAppPage lap = new Pages.LaunchAppPage();
 
-        [Given(@"Click On Ok Butto")]
+        [Given(@"Click On Ok Button")]
         public void GivenClickOnOkButton()
         {
             lap.ClickOk();
