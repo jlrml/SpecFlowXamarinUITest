@@ -1,0 +1,10 @@
+metadata:
+  name: learn-opentf-orchestrator
+jobs:
+  my-first-job:
+    runs-on: [linux, robotframework, cucumber]
+    steps:
+    - uses: cucumber5/execute@v1
+      with:
+        test: SpecFlowXamarinUITest-master/Features/LaunchApp.feature#Launch App#Launch App
+    - run: ls -l
