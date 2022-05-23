@@ -2,7 +2,7 @@ metadata:
   name: learn-opentf-orchestrator
 jobs:
   my-first-job:
-    runs-on: [linux, robotframework, cucumber]
+    runs-on: [linux, cucumber]
     steps:
     - uses: cucumber5/execute@v1
       with:
